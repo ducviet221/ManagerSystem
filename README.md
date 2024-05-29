@@ -33,7 +33,9 @@ Start the server
 1. Open api-gateway.sln with Visual Studio
 
 2. Add Database: 
+
 2.1 Rebuild
+
 2.2 Click here
 <img src="./Untitled.png">
 
