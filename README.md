@@ -1,7 +1,7 @@
 ## Clone Project
 
 ```bash
-  git clone https://gitlab.com/DucAnh21092000/viet.git
+  git clone https://github.com/ducviet221/ManagerSystem.git
 ```
 
 ## Start Front-end
@@ -32,25 +32,16 @@ Start the server
 
 1. Open api-gateway.sln with Visual Studio
 
-2. find appsettings.json
-
-3. modify this line to your username, password
-
-```bash
-"ConnectionString": {
-    "EmployeeDB": "server=localhost;database=NhanSu;User ID=admin;password=admin1;"
-  },
-```
-
-4. Add Database: 
-4.1 Click here
+2. Add Database: 
+2.1 Rebuild
+2.2 Click here
 <img src="./Untitled.png">
 
-4.2 run this cmd:
+2.3 run this cmd:
 
 ```bash
      add-migration -context myDbContext yourname
 
-     update-database -context dbContext
+     update-database -context myDbContext
 ```
 
